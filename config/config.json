@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "mespay",
+    "password": "m3dkhhfz3CMXPkZB",
+    "database": "mespay",
+    "host": "116.203.181.181",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "mespay",
+    "password": "m3dkhhfz3CMXPkZB",
+    "database": "mespay",
+    "host": "116.203.181.181",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "mespay",
+    "password": "m3dkhhfz3CMXPkZB",
+    "database": "mespay",
+    "host": "116.203.181.181",
+    "dialect": "mysql"
+  },
+  "constants": {
+    "ECUZEN_API_URL": "https://partner.ecuzen.in/new/api/",
+    "ECUZEN_API_KEY": "88b327ce-5717-4751-a518-66458247300c"
+  }
+}
