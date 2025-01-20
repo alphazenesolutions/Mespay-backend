@@ -9,7 +9,7 @@ var smtpTransport = nodemailer.createTransport({
     user: "info@mespay.in",
     pass: "Mespay@123",
   },
-  
+
   // host: "smtp.zoho.in",
   // port: 465,
   // secure: true,
@@ -22,7 +22,6 @@ var smtpTransport = nodemailer.createTransport({
 router.post("/otpsend", async (req, res) => {
   const { otp, email, name } = req.body;
   const mailOptions = {
-    // from: "hr@codepurple.in",
     from: "info@mespay.in",
     to: email,
     subject: "Account Verification Code",
